@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/sainarendar23/portfolio",
+  "homepage": "https://sainarendar23.github.io/PORTFOLIO",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "gh-pages-clean": "gh-pages-clean",
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

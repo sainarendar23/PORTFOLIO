@@ -61,7 +61,7 @@ function Home() {
           With a focus on both functionality and aesthetics, I aim to create seamless digital experiences.</p>
 
           <a 
-            href="https://drive.google.com/file/d/1o31xEoISHrdtf21bGEyVV596-47U7iSw/view?usp=sharing" 
+            href="https://drive.google.com/file/d/1sFzB33VXOzZI-NblKsEl9gVPJ4uYFcO2/view?usp=drive_link" 
             target="_blank" 
             rel="noopener noreferrer"
             style={{ textDecoration: 'none' }}> 
