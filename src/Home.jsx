@@ -55,7 +55,7 @@ function Home() {
           </ul>
         </nav>
         <div className="social-icons">
-          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
           <a href="https://leetcode.com/u/sai_narendar/" target="_blank" rel="noopener noreferrer"><SiLeetcode /></a>
         </div>
       </header>
