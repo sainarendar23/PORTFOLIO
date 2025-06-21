@@ -11,7 +11,7 @@ import { SiLeetcode } from "react-icons/si";
 import './Home.css';  // Importing CSS file for Home component
 import { useEffect, useState } from 'react';
 
-const roles = ['Web Developer', 'Full Stack Developer'];
+const roles = ['Web Developer', 'Full Stack Developer','AI Workflow Designer'];
 
 function RotatingText() {
   const [index, setIndex] = useState(0);
