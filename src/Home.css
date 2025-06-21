@@ -1,0 +1,214 @@
+/* Home.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000; /* Ensures the navbar is on top of other elements */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #f4f4f4;
+}
+
+.social-icons a {
+  color: white;
+  margin-left: 35px;
+  font-size: 170%;
+  gap: 25px;
+}
+.social-icons a svg {
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover svg {
+  transform: scale(1.2); /* Optional hover effect */
+}
+
+.hero {
+  margin-top: 70px; /* Adds space so the content doesn't overlap with the navbar */
+  background-color: #1a1a1a;
+
+}
+.image-container{
+  color: #1a1a1a;
+}
+
+.hero-content {
+  display: flex;
+  color: #f4f4f4;
+}
+.description {
+  margin-bottom: 90px;
+  font-size: x-large;
+  font-size: 1.2rem;
+  font-display:inherit;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 10%;
+}
+
+.cta-button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.cta-button:hover {
+  background-color: #f4d03f;
+  border: 2px solid rgb(0, 0, 0);
+  color: #333;
+}
+/* Home.css */
+
+/* skill.css */
+
+
+.skills-section {
+  background-color: #111;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.skills-heading {
+  font-size: 3rem;
+  color: #f4d03f;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.skills-heading::before {
+  content: 'Skills';
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f4d03f;
+  writing-mode: vertical-lr;
+}
+
+
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  padding: 60px;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #e2c550;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.skill-item span {
+  display: block;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.skill-item:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+span {
+  font-size: 14px;
+}
+
+.text-content h1, 
+.text-content h3, 
+.text-content h2 {
+  margin: 0; /* Removes extra space */
+  padding: 5px 0; /* Adds minimal space */
+  margin-left: 10%;
+  font: size 69px;;
+}
+.text-content h1 {
+  color: #f4d03f; /* Yellow color */
+  font-size: xx-large;
+}
+
+
+
+
+.profile-image {
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+/* contact.css */
+
+
+/* contact.css */
+.contact-section {
+  padding: 50px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: #e2c550;
+}
+
+.contact-links a i {
+  margin-right: 10px;
+}
