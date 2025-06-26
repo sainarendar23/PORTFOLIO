@@ -76,7 +76,7 @@ function Home() {
             </p>
 
             <a
-              href="https://drive.google.com/file/d/1sFzB33VXOzZI-NblKsEl9gVPJ4uYFcO2/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1qx5HRWzWKtmg6CcFpLJ_EVrn1CSVy09H/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: 'none' }}>
