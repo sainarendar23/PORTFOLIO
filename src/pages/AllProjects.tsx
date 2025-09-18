@@ -193,7 +193,7 @@ const AllProjects = () => {
                     {project.title === "AI Agents Selling Website" ? (
                       <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <img 
-                          src="/src/assets/ai-agents-website.png" 
+                          src="/assets/ai-agents-website.png" 
                           alt="AI Agents Selling Website Screenshot" 
                           className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
                         />
@@ -204,8 +204,8 @@ const AllProjects = () => {
                     ) :project.title === "LinkedIn Post Agent" ? (
                       <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <img 
-                          src="/src/assets/linkedin_post.png" 
-                          alt="AI Agents Selling Website Screenshot" 
+                          src="/assets/linkedin_post.png" 
+                          alt="linked in image " 
                           className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
                         />
                         {project.featured && <Badge className="absolute top-4 right-4 bg-portfolio-accent text-portfolio-dark-brown">
@@ -216,7 +216,7 @@ const AllProjects = () => {
                     :project.title === "Customer Support Agents" ? (
                       <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <img 
-                          src="/src/assets/customersupport.png" 
+                          src="/assets/customersupport.png" 
                           alt="AI Agents Selling Website Screenshot" 
                           className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
                         />
@@ -227,7 +227,7 @@ const AllProjects = () => {
                     ):project.title === "Food Ordering Website" ? (
                       <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <img 
-                          src="/src/assets/FoodOrder.png" 
+                          src="/assets/FoodOrder.png" 
                           alt="AI Agents Selling Website Screenshot" 
                           className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
                         />
@@ -238,7 +238,7 @@ const AllProjects = () => {
                     ):project.title === "AI-powered ad creative generation." ? (
                       <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <img 
-                          src="/src/assets/AD-Creative Generation.png" 
+                          src="/assets/AD-Creative Generation.png" 
                           alt="AI Agents Selling Website Screenshot" 
                           className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
                         />
@@ -249,7 +249,7 @@ const AllProjects = () => {
                     ) :project.title === "Company Website" ? (
                       <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <img 
-                          src="/src/assets/CompanyWebsite.png" 
+                          src="/assets/CompanyWebsite.png" 
                           alt="AI Agents Selling Website Screenshot" 
                           className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
                         />
@@ -261,7 +261,7 @@ const AllProjects = () => {
                     project.title === "Finding Lead" ? (
                       <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <img 
-                          src="/src/assets/Finding_lead.png" 
+                          src="/assets/Finding_lead.png" 
                           alt="AI Agents Selling Website Screenshot" 
                           className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
                         />
@@ -273,7 +273,7 @@ const AllProjects = () => {
                     project.title === "Stock Price Prediction ML" ? (
                       <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <img 
-                          src="/src/assets/stock_price_prrediction.png" 
+                          src="/assets/stock_price_prrediction.png" 
                           alt="AI Agents Selling Website Screenshot" 
                           className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
                         />
@@ -285,7 +285,7 @@ const AllProjects = () => {
                     project.title === "AirJio - Mobile Recharge App" ? (
                       <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <img 
-                          src="/src/assets/airjio.png" 
+                          src="/assets/airjio.png" 
                           alt="AI Agents Selling Website Screenshot" 
                           className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
                         />

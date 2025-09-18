@@ -2,9 +2,10 @@ import { ExternalLink, Github, Globe, Bot, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { AnimatedSection } from "@/hooks/useScrollAnimation";
-import aiAgentsImage from "@/assets/ai-agents-website.png";
-import LinkImage from "@/assets/linkedin_post.png";
-import CsImage from "@/assets/customersupport.png"
+import aiAgentsImage from "/assets/ai-agents-website.png";
+import LinkImage from "/assets/linkedin_post.png";
+import CsImage from "/assets/customersupport.png"
+
 const ProjectsSection = () => {
   const projects = [
      {
