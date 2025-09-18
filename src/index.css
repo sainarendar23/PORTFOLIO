@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 30 15% 97%;
+    --foreground: 25 45% 25%;
+
+    --card: 28 35% 92%;
+    --card-foreground: 25 45% 25%;
+
+    --popover: 30 15% 97%;
+    --popover-foreground: 25 45% 25%;
+
+    --primary: 25 45% 25%;
+    --primary-foreground: 30 15% 97%;
+
+    --secondary: 28 60% 75%;
+    --secondary-foreground: 25 45% 25%;
+
+    --muted: 28 25% 88%;
+    --muted-foreground: 25 25% 45%;
+
+    --accent: 28 50% 85%;
+    --accent-foreground: 25 45% 25%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 30 15% 97%;
+
+    --border: 28 25% 85%;
+    --input: 28 25% 85%;
+    --ring: 28 60% 65%;
+
+    --radius: 0.75rem;
+
+    /* Custom portfolio colors */
+    --portfolio-primary: 25 45% 25%;
+    --portfolio-secondary: 28 60% 75%;
+    --portfolio-background: 30 15% 97%;
+    --portfolio-accent: 28 50% 85%;
+    --portfolio-text: 25 45% 25%;
+    --portfolio-peach: 28 60% 90%;
+    --portfolio-warm: 25 35% 85%;
+
+    /* Shadows */
+    --shadow-subtle: 0 2px 8px hsl(var(--portfolio-primary) / 0.08);
+    --shadow-card: 0 4px 16px hsl(var(--portfolio-primary) / 0.12);
+    --shadow-warm: 0 8px 32px hsl(28 45% 65% / 0.15);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 25 25% 12%;
+    --foreground: 28 25% 88%;
+
+    --card: 25 20% 16%;
+    --card-foreground: 28 25% 88%;
+
+    --popover: 25 20% 16%;
+    --popover-foreground: 28 25% 88%;
+
+    --primary: 28 60% 65%;
+    --primary-foreground: 25 25% 12%;
+
+    --secondary: 25 25% 22%;
+    --secondary-foreground: 28 25% 88%;
+
+    --muted: 25 15% 18%;
+    --muted-foreground: 28 15% 65%;
+
+    --accent: 28 45% 25%;
+    --accent-foreground: 28 25% 88%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 28 25% 88%;
+
+    --border: 25 20% 25%;
+    --input: 25 20% 25%;
+    --ring: 28 60% 65%;
+    --portfolio-peach: 25 20% 18%;
+    --portfolio-warm: 25 15% 20%;
+    --sidebar-background: 220 35% 10%;
+    --sidebar-foreground: 180 35% 85%;
+    --sidebar-primary: 180 75% 55%;
+    --sidebar-primary-foreground: 220 45% 15%;
+    --sidebar-accent: 220 25% 18%;
+    --sidebar-accent-foreground: 180 35% 85%;
+    --sidebar-border: 220 25% 18%;
+    --sidebar-ring: 180 75% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Scrollbar Styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--portfolio-primary));
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--portfolio-secondary));
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--portfolio-accent));
+  }
+}
