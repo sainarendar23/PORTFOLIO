@@ -8,21 +8,21 @@ const ExperienceSection = () => {
     location: "Remote",
     duration: "2025 - Present",
     description: ["Created automated testing frameworks and CI/CD pipelines", "Developed process automation tools and scripts", "Created AI agents and automation systems for various clients", "Streamlined deployment processes and infrastructure"],
-    technologies: ["N8N", "RAG", "Docker", "AWS", "Shell Scripting","MCP Server"]
+    technologies: ["N8N", "RAG", "Docker", "AWS", "MCP Server","Vector DB"]
   },{
     title: "Software Developer",
     company: "College",
     location: "College",
     duration: "2023-2024",
-    description: ["Developed full-stack web applications using modern technologies", "Built responsive websites and platforms with payment integrations", "Implemented backend APIs and database management systems"],
-    technologies: ["React", "Node.js", "SpringBoot", "Mic", "AWS"]
+    description: ["Designed and implemented scalable backend architectures", "Developed RESTful APIs and microservices", "Worked with databases and cloud deployment", "Optimized application performance and security"],
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker", "Git","AWS","Microservices"]
   },{
     title: "Fullstack Developer",
     company: "College",
     location: "College",
     duration: "2022 - 2023",
-    description: ["Designed and implemented scalable backend architectures", "Developed RESTful APIs and microservices", "Worked with databases and cloud deployment", "Optimized application performance and security"],
-    technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker", "Git"]
+    description: ["Developed full-stack web applications using modern technologies", "Built responsive websites and platforms with payment integrations", "Implemented backend APIs and database management systems"],
+    technologies: ["React", "Node.js", "SpringBoot","HTML","CSS","Java Script"]
   }];
   return <section id="experience" className="py-20 bg-portfolio-darkbrown">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
