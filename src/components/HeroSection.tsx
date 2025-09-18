@@ -10,7 +10,7 @@ const HeroSection = () => {
         window.open("https://mail.google.com/mail/?view=cm&fs=1&to=smsainarendar23@gmail.com&su=Job%20Offer%20from%20[Company%20Name]&body=Dear%20Candidate%2C%0D%0A%0D%0AWe%20are%20pleased%20to%20inform%20you%20that%20you%20have%20been%20selected%20for%20the%20vacancy%20at%20our%20organization.%20Your%20qualifications%20and%20experience%20are%20highly%20valued%2C%20and%20we%20believe%20you%20will%20be%20a%20strong%20addition%20to%20our%20team.%20For%20the%20hiring%20process,%20If%20you%20have%20any%20questions%2C%20feel%20free%20to%20reach%20out.%0D%0A%0D%0AWarm%20regards%2C%0D%0A[Sai%20Narendar%20S]%0D%0A[Your%20Position]%0D%0A[Company%20Name]");
   };
   const handledownload = () => {
-    window.open("https://drive.google.com/file/d/1sFzB33VXOzZI-NblKsEl9gVPJ4uYFcO2/view?usp=drive_link", "_blank");
+    window.open("https://drive.google.com/file/d/1DjlQ7CKNAVm9rZXoAavzMaILeGVXl9zy/view?usp=sharing", "_blank");
   };
 
   return (
