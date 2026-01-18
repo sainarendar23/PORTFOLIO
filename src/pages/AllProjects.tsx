@@ -21,7 +21,7 @@ const AllProjects = () => {
         return Smartphone;
       case "backend":
         return Database;
-      case "ai":
+      case "AI/ML":
         return Bot;
       default:
         return Code2;
