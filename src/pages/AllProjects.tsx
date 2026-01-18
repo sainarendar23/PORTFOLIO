@@ -62,7 +62,7 @@ const AllProjects = () => {
       tech: ["Python", "TensorFlow", "Flask", "Pandas", "Scikit-learn", "Matplotlib"],
       liveDemo: "",
       github: "https://github.com/sainarendar23/stock_prediction",
-      category: "ai",
+      category: "AI/ML",
       featured: false
     }, {
       title: "Hostel Management System",
@@ -150,7 +150,7 @@ const AllProjects = () => {
     id: "backend",
     label: "Backend"
   }, {
-    id: "ai/ml",
+    id: "AI/ML",
     label: "AI/ML"
   }];
   const filteredProjects = filter === "all" ? projects : projects.filter(project => project.category === filter);
