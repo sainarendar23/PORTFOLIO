@@ -81,6 +81,15 @@ const AllProjects = () => {
       category: "mobile",
       featured: false
     },
+    }, {
+      title: "Frontend project",
+      description: "first frontend project using html and css only",
+      tech: ["Html","css"],
+      liveDemo: "https://sainarendar23.github.io/HTML-CSS/",
+      github: "https://github.com/sainarendar23/HTML-CSS",
+      category: "Web",
+      featured: false
+    },
 
     // Automation Projects
     {
