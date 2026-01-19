@@ -303,19 +303,19 @@ const AllProjects = () => {
                           </Badge>}
                       </div>
                     ) : 
-                    project.title === "Frontend project" ? (
-                      <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
-                        <img 
-                          src="" 
-                          alt="" 
-                          className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
-                        />
-                        {project.featured && <Badge className="absolute top-4 right-4 bg-portfolio-accent text-portfolio-dark-brown">
-                            Featured
-                          </Badge>}
-                      </div>
-                    ) : (
-                      <div className="bg-portfolio-brown/30 rounded-3xl p-16 flex items-center justify-center backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
+                    // project.title === "Frontend project" ? (
+                    //   <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
+                    //     <img 
+                    //       src="" 
+                    //       alt="" 
+                    //       className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
+                    //     />
+                    //     {project.featured && <Badge className="absolute top-4 right-4 bg-portfolio-accent text-portfolio-dark-brown">
+                    //         Featured
+                    //       </Badge>}
+                    //   </div>
+                    // ):
+                    ( <div className="bg-portfolio-brown/30 rounded-3xl p-16 flex items-center justify-center backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <div className="w-32 h-32 bg-portfolio-accent/20 rounded-3xl flex items-center justify-center group-hover:bg-portfolio-accent/30 transition-all duration-300">
                           <IconComponent className="w-16 h-16 text-portfolio-accent group-hover:scale-110 transition-transform duration-300" />
                         </div>
