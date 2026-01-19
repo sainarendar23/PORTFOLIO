@@ -303,7 +303,7 @@ const AllProjects = () => {
                           </Badge>}
                       </div>
                     ) : (
-                    project.title === "frontend project" ? (
+                    project.title === "Frontend project" ? (
                       <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <img 
                           src="" 
