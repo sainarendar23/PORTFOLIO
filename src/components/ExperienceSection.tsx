@@ -22,7 +22,7 @@ const ExperienceSection = () => {
     location: "College",
     duration: "2022 - 2023",
     description: ["Developed full-stack web applications using modern technologies", "Built responsive websites and platforms with payment integrations", "Implemented backend APIs and database management systems"],
-    technologies: ["React", "Node.js", "SpringBoot","HTML","CSS","Java Script"]
+    technologies: ["React", "Node.js", "SpringBoot","SQL","HTML","CSS","Java Script"]
   }];
   return <section id="experience" className="py-20 bg-portfolio-darkbrown">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
