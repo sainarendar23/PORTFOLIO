@@ -76,7 +76,7 @@ const AllProjects = () => {
       title: "AirJio - Mobile Recharge App",
       description: "Full-stack mobile recharge application with payment gateway integration and real-time transaction processing. Built with React Native for cross-platform compatibility and Node.js backend with MongoDB for user management.",
       tech: ["Vite", "swagger", "MongoDB", "Payment Gateway", "Redux"],
-      liveDemo: "https://sainarendar23.github.io/AirJio-Frontend/",
+      liveDemo: "https://sainarendar23.github.io/Mobile-Recharge-Appilication-prototype/",
       github: "https://github.com/sainarendar23/AirJio-Frontend",
       category: "mobile",
       featured: false
