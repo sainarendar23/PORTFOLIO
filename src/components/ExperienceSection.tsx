@@ -3,19 +3,19 @@ import { Card, CardContent } from "@/components/ui/card";
 import { AnimatedSection } from "@/hooks/useScrollAnimation";
 const ExperienceSection = () => {
   const experiences = [{
-    title: "Software Developer1",
-    company: "UST",
-    location: "TRIVANDRUM,India",
-    duration: "2025/02 - 2025/05",
-    description: ["Designed and implemented scalable backend architectures", "Developed RESTful APIs and microservices", "Optimized application performance and security"],
-    technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker", "Git","Microservices"]
-  },{
     title: " Founder & Automation Architect ",
     company: "Stomai",
     location: "Remote",
     duration: "2025 - Present",
     description: ["Created automated testing frameworks and CI/CD pipelines", "Developed process automation tools and scripts", "Created AI agents and automation systems for various clients", "Streamlined deployment processes and infrastructure"],
     technologies: ["N8N", "RAG", "Docker", "AWS", "MCP Server","Vector DB"]
+  },{
+    title: "Software Developer1",
+    company: "UST",
+    location: "TRIVANDRUM,India",
+    duration: "2026/02 - 2026/05",
+    description: ["Designed and implemented scalable backend architectures", "Developed RESTful APIs and microservices", "Optimized application performance and security"],
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker", "Git","Microservices"]
   },{
     title: "Software Developer",
     company: "College",
