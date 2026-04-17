@@ -12,7 +12,7 @@ const ExperienceSection = () => {
   },{
     title: "Software Developer1",
     company: "UST",
-    location: "TRIVANDRUM,India",
+    location: "Trivandrum,India",
     duration: "2026/02 - 2026/05",
     description: ["Designed and implemented scalable backend architectures", "Developed RESTful APIs and microservices", "Optimized application performance and security"],
     technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker", "Git","Microservices"]
