@@ -15,21 +15,14 @@ const ExperienceSection = () => {
     location: "Trivandrum,India",
     duration: "2026/02 - 2026/05",
     description: ["Designed and implemented scalable backend architectures", "Developed RESTful APIs and microservices", "Optimized application performance and security"],
-    technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker", "Git","Microservices"]
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker", "Node.js", "Git", "Microservices"]
   },{
-    title: "Software Developer",
+    title: "FullStack Developer",
     company: "College",
     location: "College",
-    duration: "2023-2024",
+    duration: "2021-2025",
     description: ["Designed and implemented scalable backend architectures", "Developed RESTful APIs and microservices", "Worked with databases and cloud deployment", "Optimized application performance and security"],
-    technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker", "Git","AWS","Microservices"]
-  },{
-    title: "Fullstack Developer",
-    company: "College",
-    location: "College",
-    duration: "2022 - 2023",
-    description: ["Developed full-stack web applications using modern technologies", "Built responsive websites and platforms with payment integrations", "Implemented backend APIs and database management systems"],
-    technologies: ["React", "Node.js", "SpringBoot","SQL","HTML","CSS","Java Script"]
+    technologies: ["Java", "Spring Boot", "PostgreSQL","SQL", "Docker", "Git","AWS","Microservices","React","HTML","CSS","Java Script"]
   }];
   return <section id="experience" className="py-20 bg-portfolio-darkbrown">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
