@@ -232,7 +232,7 @@ const AllProjects = () => {
                     ):project.title === "StomConvert" ? (
                       <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <img 
-                          src="/assets/stomconvert image" 
+                          src="/assets/stomconvert_image.png" 
                           alt="stomconvert image" 
                           className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
                         />
