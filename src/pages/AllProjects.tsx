@@ -229,7 +229,7 @@ const AllProjects = () => {
                             Featured
                           </Badge>}
                       </div>
-                    ):project.title === "StomConvert" ? (
+                    ):project.title === "Stom Convert" ? (
                       <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
                         <img 
                           src="public/assets/stomconvert_image.png" 
