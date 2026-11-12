@@ -31,6 +31,14 @@ const AllProjects = () => {
     // Original Projects
     
     {
+      title: "Stom Convert",
+      description: "A modern, privacy-focused online file conversion platform that allows users to convert documents, images, and other file formats directly in their browser. Built with React and TypeScript, featuring client-side file processing, PDF to Word conversion, Word to PDF conversion, image conversion, and multiple file utilities without requiring a backend or storing user files on external servers.",
+      tech: ["React JS", "TypeScript", "Tailwind CSS", "Client-Side Processing", "PDF.js", "File Conversion Libraries"],
+      liveDemo: "https://stom-convert.netlify.app/",
+      github: "https://github.com/sainarendar23/STOM-Convert",
+      category: "web",
+      featured: true
+   },{
      title: "Company Website",
      description: "A full-stack project for selling AI agents with modern e-commerce features, user authentication, and payment integration. Built with React for the frontend and Node.js for the backend, featuring Stripe payment processing and MongoDB for data storage.",
      tech: ["tailwind", "react js","open icons","RAG chat bot","Type Script"],
@@ -39,7 +47,7 @@ const AllProjects = () => {
      category: "web",
      featured: true
    },
-    {
+     {
       title: "AI Agents Selling Website",
       description: "A full-stack project for selling AI agents with modern e-commerce features, user authentication, and payment integration. Built with React for the frontend and Node.js,sprong boot for the backend, featuring Stripe payment processing and MongoDB for data storage.",
       tech: ["tailwind","Type Script", "react js", "springboot","jwt","payment Gateway","Microservice"],
@@ -47,7 +55,7 @@ const AllProjects = () => {
       github: "https://github.com/sainarendar23/agents-website",
       category: "web",
       featured: true
-    },
+    },   
      {
       title: "Food Ordering Website",
       description: "Modern food ordering platform with responsive design, real-time order tracking, and seamless user experience. Features include dynamic menu display, cart management, and order history tracking with local storage integration.",
@@ -215,6 +223,17 @@ const AllProjects = () => {
                         <img 
                           src="/assets/linkedin_post.png" 
                           alt="linked in image " 
+                          className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
+                        />
+                        {project.featured && <Badge className="absolute top-4 right-4 bg-portfolio-accent text-portfolio-dark-brown">
+                            Featured
+                          </Badge>}
+                      </div>
+                    ):project.title === "StomConvert" ? (
+                      <div className="bg-portfolio-brown/30 rounded-3xl p-8 backdrop-blur-sm border border-portfolio-accent/20 group hover:border-portfolio-accent/40 transition-all duration-500">
+                        <img 
+                          src="/assets/stomconvert image" 
+                          alt="stomconvert image" 
                           className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-2xl transition-all duration-300"
                         />
                         {project.featured && <Badge className="absolute top-4 right-4 bg-portfolio-accent text-portfolio-dark-brown">
